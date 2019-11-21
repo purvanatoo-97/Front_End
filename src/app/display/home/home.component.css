@@ -1,0 +1,60 @@
+#problemStatement h3{
+    color:	#e6e6e6;
+    font-family: 'Courgette', cursive;
+    font-size:30px;
+    text-align: center;
+    margin-left:0px;
+    padding: 20px;
+  }
+  .groupName{
+    align-self: center;
+    
+    font-size:40px;
+    margin-top:0px;
+    margin-left:300px;
+  }
+  .groupName h1 {
+    color: #fff;
+    font-family: monospace;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #4d9900; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #4d9900 }
+  }
+  
+  #logo{
+    
+    margin-left:550px;
+    margin-top:100px;
+     
+  }
+
+  #homeBody{
+      position: fixed;
+      position:absolute;
+      top:0;
+      left:0;
+      right:0;
+      bottom:0;
+      background-image: url("src/assets/forest_3_0.5.jpg") ;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      
+  }

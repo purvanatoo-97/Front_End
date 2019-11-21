@@ -1,0 +1,12 @@
+<p>view-data works!</p>
+<table>
+    <th>Ward No</th>
+    <th>Trees Present</th>
+    <th>Trees Needed</th>
+
+    <tr *ngFor = "let tree of treeset">
+        <td>{{tree.ward}}</td>
+        <td>{{tree.treeP}}</td>
+        <td>{{tree.treeN}}</td>
+    </tr>
+</table>

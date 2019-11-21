@@ -1,0 +1,20 @@
+{
+    "trees":[
+        {
+            "ward":1,
+            "treesP":10,
+            "treesN":11
+        },
+        {
+            "ward":2,
+            "treesP":20,
+            "treesN":22
+        },
+        {
+            "ward":3,
+            "treesP":30,
+            "treesN":33
+        }
+        
+    ]
+}
