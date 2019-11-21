@@ -2,8 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
-import {HttpModule} from '@angular/http';
-import {RouterModule} from '@angular/router';
+import { HttpModule } from '@angular/http';
+import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { SideComponent } from './side/side.component';
@@ -30,11 +30,11 @@ import { AboutUsComponent } from './display/about-us/about-us.component';
     HttpModule,
     AppRoutingModule,
     RouterModule.forRoot([
-      {path:'',component:HomeComponent},
-      {path:'ward',component:WardComponent},
-      {path:'dataSearch',component:DataSearchComponent},
-      {path:'viewData',component:ViewDataComponent},
-      {path:'about',component:AboutUsComponent},
+      {path: '', component: HomeComponent},
+      {path: 'ward', component: WardComponent},
+      {path: 'dataSearch', component: DataSearchComponent},
+      {path: 'viewData', component: ViewDataComponent},
+      {path: 'about', component: AboutUsComponent},
     ])
   ],
   providers: [],
