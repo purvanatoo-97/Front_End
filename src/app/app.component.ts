@@ -15,7 +15,6 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     this.detailsService.getAllData().subscribe(
       response => {
-        // console.log(response.json()[0]);
         for (const iterator of response.json()) {
           this.detailsService.addDetails({
             wardNo: iterator.ward_no,
@@ -28,10 +27,8 @@ export class AppComponent implements OnInit {
             excessCo2: iterator.excess_co2,
             treeRequire: iterator.tree_required
           } as DetailsModel);
-          console.log(iterator.ward_no);
         }
       }
     );
-    console.log(this.detailsService.getAllData());
   }
 }
